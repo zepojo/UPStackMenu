@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UPStackMenu"
-  s.version          = "1.0.0"
+  s.version          = "0.0.1"
   s.summary          = "A fancy menu with a stack layout for iOS."
   s.description      = "UPStackMenu is a fancy menu with a stack layout for iOS."
   s.homepage         = "https://github.com/ink-spot/UPStackMenu"
