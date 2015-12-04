@@ -165,12 +165,12 @@ const static NSTimeInterval             kStackMenuDefaultCloseAnimationDurationO
         height += item.frame.size.height + _itemsSpacing;
         
         if([item labelPosition] == UPStackMenuItemLabelPosition_left) {
-            CGFloat itemLeftOffset = fabsf(center.x - item.itemCenter.x);
+            CGFloat itemLeftOffset = fabs(center.x - item.itemCenter.x);
             if(itemLeftOffset > leftOffset)
                 leftOffset = itemLeftOffset;
         }
         else if([item labelPosition] == UPStackMenuItemLabelPosition_right) {
-            CGFloat itemRightOffset = fabsf(item.frame.size.width - item.itemCenter.x - center.x);
+            CGFloat itemRightOffset = fabs(item.frame.size.width - item.itemCenter.x - center.x);
             if(itemRightOffset > rightOffset)
                 rightOffset = itemRightOffset;
         }
